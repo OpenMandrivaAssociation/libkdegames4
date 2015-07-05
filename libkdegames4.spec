@@ -102,7 +102,7 @@ Headers files needed to build applications based on KDE games library.
 #------------------------------------------------------------------------------
 
 %prep
-%setup -q
+%setup -qn libkdegames-%{version}
 
 %build
 %cmake_kde4
