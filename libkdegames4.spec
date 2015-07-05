@@ -1,7 +1,7 @@
 Summary:	KDE games library
 Name:		libkdegames4
 Version:	4.14.3
-Release:	3
+Release:	4
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
@@ -46,10 +46,10 @@ Qml plugins for KDE games.
 
 #-------------------------------------------------------------------------------
 
-%define libkdegames_major 6
-%define libkdegames %mklibname kdegames %{libkdegames_major}
+%define libkdegames4_major 6
+%define libkdegames4 %mklibname kdegames4 %{libkdegames_major}
 
-%package -n %{libkdegames}
+%package -n %{libkdegames4}
 Summary:	Runtime Library for KDE games
 Group:		System/Libraries
 Obsoletes:	%{_lib}kdegames4 < 1:4.8.0
@@ -58,26 +58,26 @@ Obsoletes:	%{_lib}kggzgames4 < 1:4.8.0
 Obsoletes:	%{_lib}kggzmod4 < 1:4.8.0
 Obsoletes:	%{_lib}kggznet4 < 1:4.8.0
 
-%description -n %{libkdegames}
+%description -n %{libkdegames4}
 Runtime Library for KDE games.
 
-%files -n %{libkdegames}
-%{_kde_libdir}/libkdegames.so.%{libkdegames_major}*
+%files -n %{libkdegames4}
+%{_kde_libdir}/libkdegames.so.%{libkdegames4_major}*
 
 #-------------------------------------------------------------------------------
 
-%define libkdegamesprivate_major 1
-%define libkdegamesprivate %mklibname kdegamesprivate 1
+%define libkdegamesprivate4_major 1
+%define libkdegamesprivate4 %mklibname kdegamesprivate4 1
 
-%package -n %{libkdegamesprivate}
+%package -n %{libkdegamesprivate4}
 Summary:	Runtime Library for KDE games
 Group:		System/Libraries
 
-%description -n %{libkdegamesprivate}
+%description -n %{libkdegamesprivate4}
 Runtime Library for KDE games.
 
-%files -n %{libkdegamesprivate}
-%{_kde_libdir}/libkdegamesprivate.so.%{libkdegamesprivate_major}*
+%files -n %{libkdegamesprivate4}
+%{_kde_libdir}/libkdegamesprivate.so.%{libkdegamesprivate4_major}*
 
 #-------------------------------------------------------------------------------
 
@@ -87,8 +87,8 @@ Group:		Development/KDE and Qt
 Requires:	kdelibs-devel
 Obsoletes:	kdegames4-devel < 1:4.9.80
 Provides:	kdegames4-devel = %{EVRD}
-Requires:	%{libkdegames} = %{EVRD}
-Requires:	%{libkdegamesprivate} = %{EVRD}
+Requires:	%{libkdegames4} = %{EVRD}
+Requires:	%{libkdegamesprivate4} = %{EVRD}
 
 %description devel
 Headers files needed to build applications based on KDE games library.
