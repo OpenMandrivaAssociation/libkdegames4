@@ -47,7 +47,7 @@ Qml plugins for KDE games.
 #-------------------------------------------------------------------------------
 
 %define libkdegames4_major 6
-%define libkdegames4 %mklibname kdegames4 %{libkdegames_major}
+%define libkdegames4 %mklibname kdegames4 %{libkdegames4_major}
 
 %package -n %{libkdegames4}
 Summary:	Runtime Library for KDE games
@@ -67,7 +67,7 @@ Runtime Library for KDE games.
 #-------------------------------------------------------------------------------
 
 %define libkdegamesprivate4_major 1
-%define libkdegamesprivate4 %mklibname kdegamesprivate4 1
+%define libkdegamesprivate4 %mklibname kdegamesprivate4 %{libkdegamesprivate4_major}
 
 %package -n %{libkdegamesprivate4}
 Summary:	Runtime Library for KDE games
