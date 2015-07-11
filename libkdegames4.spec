@@ -1,3 +1,4 @@
+%define _disable_lto 1
 Summary:	KDE games library
 Name:		libkdegames4
 Version:	4.14.3
