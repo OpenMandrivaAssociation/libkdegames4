@@ -2,7 +2,7 @@
 Summary:	KDE games library
 Name:		libkdegames4
 Version:	4.14.3
-Release:	4
+Release:	5
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
