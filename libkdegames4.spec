@@ -1,8 +1,8 @@
 %define _disable_lto 1
 Summary:	KDE games library
 Name:		libkdegames4
-Version:	4.14.3
-Release:	5
+Version:	14.12.3
+Release:	1
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
@@ -106,7 +106,7 @@ Headers files needed to build applications based on KDE games library.
 %setup -qn libkdegames-%{version}
 
 %build
-%cmake_kde4
+%cmake_kde4 -DCMAKE_MINIMUM_REQUIRED_VERSION=2.6
 %make
 
 %install

@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   libkdegames-4.14.3.tar.xz: f5e9b0c3ef265be5b0815e1c739f3b260b5a2ad8
+sources:
+  libkdegames-14.12.3.tar.xz: 258d8130e7a38d1366466cef1d29ee2e13a456a5
