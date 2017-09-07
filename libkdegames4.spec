@@ -2,12 +2,12 @@
 Summary:	KDE games library
 Name:		libkdegames4
 Version:	14.12.3
-Release:	1
+Release:	2
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
 Url:		http://games.kde.org/
-Source:		ftp://ftp.kde.org/pub/kde/stable/%{version}/src/libkdegames-%{version}.tar.xz
+Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/libkdegames-%{version}.tar.xz
 BuildRequires:	kdelibs-devel
 BuildRequires:	pkgconfig(openal)
 BuildRequires:	pkgconfig(sndfile)
