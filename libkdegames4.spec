@@ -6,7 +6,7 @@ Release:	2
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
-Url:		http://games.kde.org/
+Url:		https://games.kde.org/
 Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/libkdegames-%{version}.tar.xz
 BuildRequires:	kdelibs-devel
 BuildRequires:	pkgconfig(openal)
