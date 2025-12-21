@@ -8,6 +8,7 @@ Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
 Url:		https://games.kde.org/
 Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/libkdegames-%{version}.tar.xz
+BuildRequires:	make
 BuildRequires:	kdelibs-devel
 BuildRequires:	pkgconfig(openal)
 BuildRequires:	pkgconfig(sndfile)
